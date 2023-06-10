@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: goldenrod;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+}
+a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 35px 40px;
+    display: inline-block;
+    border-bottom: 5px solid transparent;
+    transition: .10s;
+}
+a:hover{
+    background-color: green;
+    border-bottom-color: bisque;
+}
+#banner{
+    height: 600px;
+    background-image: url(https://us.123rf.com/450wm/neirfy/neirfy2210/neirfy221000037/192123978-save-the-green-planet-concept-with-green-fresh-sprouts.jpg?ver=6);
+    background-size: cover;
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+}
+div{
+    width: 500px;
+}
+img{
+    width: 100%;
+}
